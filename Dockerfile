@@ -10,4 +10,4 @@ RUN apk update && \
 
 EXPOSE 3000
 
-docker run -d -p 3000:3000 --name metabase metabase/metabase
+DOCKER RUN -d -p 3000:3000 --name metabase metabase/metabase
