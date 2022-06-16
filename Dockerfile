@@ -10,4 +10,4 @@ RUN apk update && \
 
 EXPOSE 3000
 
-ENTRYPOINT ["/bin/sh", "-c" , "docker run -d -p 3000:3000 --name metabase metabase/metabase & /run.sh"]
+docker run -d -p 3000:3000 --name metabase metabase/metabase
