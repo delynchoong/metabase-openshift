@@ -9,6 +9,8 @@ RUN apk update && \
   
     echo "finished"
 
+USER metabase
+
 EXPOSE 3000
 
-USER metabase
+
