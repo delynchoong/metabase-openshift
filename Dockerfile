@@ -1,3 +1,4 @@
+MKDIR 
 FROM metabase/metabase
 
 USER root
@@ -10,3 +11,4 @@ RUN apk update && \
 
 EXPOSE 3000
 
+USER metabase
