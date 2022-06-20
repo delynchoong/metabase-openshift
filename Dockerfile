@@ -1,4 +1,3 @@
-MKDIR 
 FROM metabase/metabase
 
 USER root
