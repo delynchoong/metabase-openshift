@@ -10,4 +10,3 @@ RUN apk update && \
 
 EXPOSE 3000
 
-RUN metabase/metabase
